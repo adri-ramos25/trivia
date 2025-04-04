@@ -1,5 +1,8 @@
 ## Trivia
 
+![Imagens do projeto](https://github.com/adri-ramos25/trivia/blob/main/src/images/screenshot.png?raw=true)
+
+
 
 ## Sobre o Projeto
 
@@ -9,7 +12,12 @@ Projeto que eu desenvolvi como exercício do módulo 8 de HTML, CSS e JavaScript
 
 ## Acesso ao Projeto
 
-Indisponível.
+Você pode ver o projeto funcionando através do seguinte link: https://adri-ramos25.github.io/trivia/
+
+Ou, se preferir rodar localmente:
+
+1. Clone o repositório: `git clone https://github.com/adri-ramos25/trivia.git`
+2. Abra o arquivo `index.html` no navegador.
 
 
 ## Status do Projeto
