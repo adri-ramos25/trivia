@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <title>Trivia!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Trivia!</h1>
+    </header>
+
+    <main>
+        <!-- Primeira pergunta -->
+        <h2>Parte 1: Múltipla Escolha</h2>
+        <hr>
+        <h3>Qual é o mamífero mais rápido do mundo?</h3>
+
+        <p class="hidden-text"></p>
+        
+        <div id="box-btn-firs-question">
+            <button class="btn-question-1">Guepardo</button>
+            <button class="btn-question-1">Anta</button>
+            <button class="btn-question-1">Cavalo</button>
+            <button class="btn-question-1">Leão</button>
+        </div>
+
+        <button class="btn-try-again">Tentar Novamente</button>
+
+
+        <!-- Segunda pergunta -->
+        <h2 class="second-title">Parte 2: Resposta Livre</h2>
+        <hr>
+        <h3>Quantos corações tem um polvo?</h3>
+
+        <p class="hidden-text"></p>
+
+        <input type="number">
+
+        <button type="submit" id="btn-verify-response">Verificar Resposta</button>
+
+        <button class="btn-try-again">Tentar Novamente</button>
+    </main>
+
+    <footer>
+        <p class="developer-name">Desenvolvido por <a href="https://github.com/adri-ramos25">Adriano Ramos</a></p>
+    </footer>
+
+    <script src="src/js/first-question.js"></script>
+    <script src="src/js/second-question.js"></script>
+</body>
+</html>
